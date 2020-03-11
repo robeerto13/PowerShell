@@ -6,6 +6,7 @@ $name = @()
 
 $name = Get-ADGroupMember "domain admins" -Recursive | foreach {$_.samaccountname}
 foreach($n in $name){
-    $spn = get-aduser $n -Properties servicePrincipalName | ?{$_.servicePrincipalName -ne $null} | select samaccountname,servicePrincipalName
+    #$spn = get-aduser $n -Properties servicePrincipalName | ?{$_.servicePrincipalName -ne $null} | select samaccountname,servicePrincipalName
+    $spn = get-aduser $n -Properties servicePrincipalName | select samaccountname,servicePrincipalName
     $spn
     } 
