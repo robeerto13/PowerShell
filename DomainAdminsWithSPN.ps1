@@ -1,4 +1,5 @@
-﻿Import-Module C:\AD\Tools\ADModule-master\Microsoft.ActiveDirectory.Management.dll
+# find DA with SPN for Kerberoasting
+Import-Module C:\AD\Tools\ADModule-master\Microsoft.ActiveDirectory.Management.dll
 Import-Module C:\AD\Tools\ADModule-master\ActiveDirectory\ActiveDirectory.psd1
 $name = @()
 
