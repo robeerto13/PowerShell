@@ -10,7 +10,6 @@ C:\Windows\System32\WindowsPowerShell\v1.0\Modules\ActiveDirectory\
 You can copy this DLL to your machine and use it to enumerate Active Directory without installing RSAT and without having administrative privileges. 
 
 PS C:\> Import-Module C:\ADModule\Microsoft.ActiveDirectory.Management.dll -Verbose
-![Alt text](/img/AD_Module.png?raw=true "ADModule")
 
 To be able to list all the cmdlets in the module, import the module as well. Remember to import the DLL first. 
 
