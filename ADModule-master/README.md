@@ -21,8 +21,6 @@ PS C:\> Get-Command -Module ActiveDirectory
 
 ## Benefits
 There are many benefits like very low chances of detection by AV, very wide coverage by cmdlets, good filters for cmdlets, signed by Microsoft etc. The most useful one, however, is that this module works flawlessly from PowerShell's Constrained Language Mode
-![Alt text](/img/AD_Module_CLM.png?raw=true "ADModule in CLM")
-
 
 
 ## Blog 
